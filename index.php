@@ -17,7 +17,7 @@
         <link href='http://fonts.googleapis.com/css?family=Didact+Gothic' rel='stylesheet' type='text/css'>
         <script src="/static/js/vendor/modernizr-2.6.2.min.js"></script>
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-        
+
         <script src="//cdnjs.cloudflare.com/ajax/libs/underscore.js/1.5.2/underscore-min.js"></script>
         <script src="//cdnjs.cloudflare.com/ajax/libs/backbone.js/1.1.0/backbone-min.js"></script>
 
@@ -30,7 +30,7 @@
                 "*actions": "defaultRoute"
               }
             });
-            
+
             var app_router = new AppRouter;
             app_router.on('route:home', function () {
               $('#main').html($('#main-template').html());
@@ -59,11 +59,12 @@
               <li><a href="/wedding">the wedding</a></li>
               <li><a href="/transportation">transportation</a></li>
               <li><a href="/fun">fun stuff</a></li>
+              <li><a href="/guestbook">guestbook</a></li>
             </u>
           </header>
 
           <section id="main">
-            
+
           </section>
         </div>
 
