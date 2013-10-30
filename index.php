@@ -34,6 +34,23 @@
               if (!url) {
                 template = TEMPLATES.main;
               } else {
+                // Special case - render guestbook view
+                if (url === 'guestbook') {
+                  $.ajax({
+                    url: '/guestbook-service', 
+                    type: 'GET',
+                    success: function(data) {
+                      var guestbookEntries = new GuestbookCollection(data);
+                      var guestbookView = new GuestbookView({
+                        collection: guestbookEntries
+                      });
+                      $('#main').html(guestbookView.render().$el);
+                      return;
+                    }
+                  });
+                  return;
+
+                }
                 var template = TEMPLATES[url];
                 if (!template) {
                   template = TEMPLATES.comingSoon;
@@ -75,7 +92,10 @@
         </div>
 
        
-        <script src="/static/js/template.js"></script>
+        <script src="/static/js/template/template.js"></script>
+        <script src="/static/js/model/guestbook.js"></script>
+        <script src="/static/js/collection/guestbook.js"></script>
+        <script src="/static/js/view/guestbook.js"></script>
         <script>
           (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
           (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),

@@ -45,6 +45,10 @@ TEMPLATES = {
   guestbook: _.template('\
     <div class="page-content">\
       <h2>Guestbook</h2>\
+      <% _.each(entries.models, function(entry) { %>\
+        <%= entry.get(\'name\') %> - <%= entry.get(\'message\') %>\
+        <br />\
+      <% }) %>\
     </div>\
   ')
 }

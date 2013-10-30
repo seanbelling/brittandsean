@@ -46,6 +46,8 @@ RewriteRule ^cd-list/?$ cddisplay.php
 
 RewriteRule ^(story|wedding|travelers|faq|guestbook)/?$ index.php
 
+RewriteRule ^guestbook-service/?$ guestbook-service.php
+
 </IfModule>
 
 <Files 403.shtml>
