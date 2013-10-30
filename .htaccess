@@ -1,0 +1,58 @@
+# -FrontPage-
+
+IndexIgnore .htaccess */.??* *~ *# */HEADER* */README* */_vti*
+
+<Limit GET POST>
+
+#The next line modified by DenyIP
+
+order allow,deny
+
+#The next line modified by DenyIP
+
+#deny from all
+
+allow from all
+
+</Limit>
+
+<Limit PUT DELETE>
+
+order deny,allow
+
+deny from all
+
+</Limit>
+
+AuthName www.sean-inc.info
+
+AuthUserFile /home2/seanb/public_html/_vti_pvt/service.pwd
+
+AuthGroupFile /home2/seanb/public_html/_vti_pvt/service.grp
+
+<IfModule mod_rewrite.c>
+
+RewriteEngine On
+
+RewriteBase /
+
+RewriteCond %{REQUEST_FILENAME} -f [OR]
+
+RewriteCond %{REQUEST_FILENAME} -d
+
+#custom stuff inserted manually by Sean
+
+RewriteRule ^cd-list/?$ cddisplay.php
+
+RewriteRule ^(story|wedding|transporation|fun)/?$ index.php
+
+</IfModule>
+
+<Files 403.shtml>
+
+order allow,deny
+
+allow from all
+
+</Files>
+

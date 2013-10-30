@@ -52,7 +52,7 @@
     <body>
         <div id="content">
           <header class="clearfix">
-            <h1>BRITT &amp; SEAN</h1>
+            <h1>BRITT &amp; SEAN.</h1>
             <ul>
               <li><a href="/">home</a></li>
               <li><a href="/story">our story</a></li>
@@ -71,7 +71,8 @@
         <script type="text/template" id="main-template">
           <div class="main-img">
             <div class="header-wrap">
-              <h2>GETTIN' MARRIED</h2>
+              
+            <img src="/static/img/gettin-married.png" class="title" />
               <div class="line"></div>
             </div>
 
