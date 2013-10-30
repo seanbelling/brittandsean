@@ -1,6 +1,6 @@
 body {
   background-color: #AFD8D5;
-  font-family: arial, sans-serif;
+  font-family: 'Didact Gothic', sans-serif;
 }
 .clearfix:after {
   content: ".";
@@ -90,6 +90,19 @@ section#main .main-img .line {
 section#main .main-img img.main {
   position: relative;
   z-index: 1;
+}
+
+.page-content {
+  margin: 20px;
+  width: 900px;
+  min-height: 400px;
+}
+.page-content h2 {
+  font-size: 2em;
+  margin-bottom: 0.5em;
+}
+.page-content p {
+  margin-bottom: 1em;
 }
 
 

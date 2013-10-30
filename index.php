@@ -15,9 +15,7 @@
         <link rel="stylesheet" href="/static/css/normalize.css">
         <link rel="stylesheet" href="/static/css/site.css">
         <link href='http://fonts.googleapis.com/css?family=Didact+Gothic' rel='stylesheet' type='text/css'>
-        <script src="/static/js/vendor/modernizr-2.6.2.min.js"></script>
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-
         <script src="//cdnjs.cloudflare.com/ajax/libs/underscore.js/1.5.2/underscore-min.js"></script>
         <script src="//cdnjs.cloudflare.com/ajax/libs/backbone.js/1.1.0/backbone-min.js"></script>
 
@@ -26,23 +24,31 @@
           $(document).ready(function() {
             var AppRouter = Backbone.Router.extend({
               routes: {
-                "": "home",
-                "*actions": "defaultRoute"
+                "*url": "defaultRoute"
               }
             });
 
-            var app_router = new AppRouter;
-            app_router.on('route:home', function () {
-              $('#main').html($('#main-template').html());
-            });
-            app_router.on('route:defaultRoute', function (actions) {
-              $('#main').html('coming soon');
+            var router = new AppRouter;
+            router.on('route:defaultRoute', function (url) {
+              var template;
+              if (!url) {
+                template = TEMPLATES.main;
+              } else {
+                var template = TEMPLATES[url];
+                if (!template) {
+                  template = TEMPLATES.comingSoon;
+                }
+              }
+              $('#main').fadeOut(500, function() {
+                $(this).html(template).fadeIn(500);
+              });
+              
             });
             Backbone.history.start({pushState: true});
 
-            $('header ul a').click(function(ev) {
-              app_router.navigate($(this).attr('href'), {trigger: true});
-              return false;
+            $('header ul a').click(function(e) {
+              router.navigate($(this).attr('href'), {trigger: true});
+              e.preventDefault();
             });
 
           });
@@ -57,8 +63,8 @@
               <li><a href="/">home</a></li>
               <li><a href="/story">our story</a></li>
               <li><a href="/wedding">the wedding</a></li>
-              <li><a href="/transportation">transportation</a></li>
-              <li><a href="/fun">fun stuff</a></li>
+              <li><a href="/travelers">for travelers</a></li>
+              <li><a href="/faq">FAQ</a></li>
               <li><a href="/guestbook">guestbook</a></li>
             </u>
           </header>
@@ -68,20 +74,8 @@
           </section>
         </div>
 
-        <script type="text/template" id="main-template">
-          <div class="main-img">
-            <div class="header-wrap">
-              
-            <img src="/static/img/gettin-married.png" class="title" />
-              <div class="line"></div>
-            </div>
-
-            <img class="main" src="/static/img/main.jpg" alt="lol" />
-          </div>
-        </script>
-
-        <script src="/static/js/main.js"></script>
-
+       
+        <script src="/static/js/template.js"></script>
         <script>
           (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
           (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
