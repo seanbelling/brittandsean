@@ -36,6 +36,7 @@
               } else {
                 // Special case - render guestbook view
                 if (url === 'guestbook') {
+                  $('#main').html('loading');
                   $.ajax({
                     url: '/guestbook-service', 
                     type: 'GET',
