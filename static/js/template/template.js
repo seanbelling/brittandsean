@@ -72,7 +72,8 @@ TEMPLATES = {
       we\'ll try to play it on the night</p>\
       <form id="request-form">\
         <input type="text" placeholder="your name" name="name" /><br />\
-        <input type="text" placeholder="artist and title" name="song" /><br />\
+        <input type="text" placeholder="artist" name="artist" /><br />\
+        <input type="text" placeholder="song" name="song" /><br />\
         <input type="button" id="request-submit" value="play this, please" />\
       </form>\
     </div>\
