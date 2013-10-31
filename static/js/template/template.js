@@ -40,16 +40,16 @@ TEMPLATES = {
     <div class="page-content">\
       <h2>Frequently Asked Questions</h2>\
       <dl>\
-        <dt>I heard Sean is a pretty good dancer?</dt>\
-        <dd>You heard correctly.</dd>\
         <dt>Are you guys selling any merch?</dt>\
         <dd>While we understand your desire to immortalise the occasion in t-shirt form, there are no plans to offer any merchandise at this stage.</dd>\
         <dt>Can I kick it?</dt>\
         <dd>Yes you can</dd>\
+        <dt>I heard Sean is a pretty good dancer?</dt>\
+        <dd>You heard correctly.</dd>\
         <dt>Are you going to play my favourite song at the reception?</dt>\
         <dd>Maybe we will. Why not <a class="internal" href="/request">request a song</a>, friend?</dd>\
-        <dt>Is it true that Britt won the most recent season of So You Think You Can Dance?</dt>\
-        <dd>Yes.</dd>\
+        <dt>Is it true that Britt makes cookies that are so delicious that her friend\'s steal some to take home with them?</dt>\
+        <dd>It has happened before, yes.</dd>\
         <dt>Do I have to wear pants?</dt>\
         <dd>Yes, Nick, yes you do.</dd>\
       </dl>\
