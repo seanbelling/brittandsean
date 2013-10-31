@@ -48,8 +48,10 @@ TEMPLATES = {
         <dd>Yes you can</dd>\
         <dt>Are you going to play my favourite song at the reception?</dt>\
         <dd>Maybe we will. Why not <a class="internal" href="/request">request a song</a>, friend?</dd>\
-        <dt>Is it true that Britt can skull a beer in 3 seconds?</dt>\
-        <dd>We can neither confirm or deny that.</dd>\
+        <dt>Is it true that Britt won the most recent season of So You Think You Can Dance?</dt>\
+        <dd>Yes.</dd>\
+        <dt>Do I have to wear pants?</dt>\
+        <dd>Yes, Nick, yes you do.</dd>\
       </dl>\
     </div>\
   '),
