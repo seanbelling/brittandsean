@@ -59,11 +59,23 @@ TEMPLATES = {
   guestbook: _.template('\
     <div class="page-content">\
       <h2>Guestbook</h2>\
+      <div id="form-target"></div>\
+      <h3>Previous entries</h3>\
       <% _.each(entries.models, function(entry) { %>\
-        <%= entry.get(\'name\') %> - <%= entry.get(\'message\') %>\
+        <p><%= entry.get(\'name\') %><br />\
+        <span class="message"><%= entry.get(\'message\') %></span></p>\
         <br />\
       <% }) %>\
     </div>\
+  '),
+
+  guestbookForm: _.template('\
+    <form id="guestbook-form">\
+      <input type="text" placeholder="your name" name="name" /><br />\
+      <input type="text" placeholder="your email" name="email" /><br />\
+      <textarea name="message">your message</textarea><br />\
+      <input type="button" id="guestbook-submit" value="submit" />\
+    </form>\
   '),
 
   request: _.template('\
@@ -71,7 +83,7 @@ TEMPLATES = {
       <h2>Request a Song</h2>\
       <p>Been practising those moves for a particular song?<br />\
       Let us know what it is below and if it the taste-maker approves\
-      we\'ll try to play it on the night</p>\
+      we\'ll try to play it on the night.</p>\
       <form id="request-form">\
         <input type="text" placeholder="your name" name="name" /><br />\
         <input type="text" placeholder="artist" name="artist" /><br />\
