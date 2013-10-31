@@ -106,4 +106,12 @@ section#main .main-img img.main {
 }
 
 
+dt {
+  font-style: italic;
+  margin-bottom: 0.2em;
+}
+dd {
+  margin-bottom: 1em;
+}
+
 

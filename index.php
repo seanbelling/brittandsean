@@ -38,7 +38,7 @@
                 if (url === 'guestbook') {
                   $('#main').html('loading');
                   $.ajax({
-                    url: '/guestbook-service', 
+                    url: '/guestbook-service',
                     type: 'GET',
                     success: function(data) {
                       var guestbookEntries = new GuestbookCollection(data);
@@ -50,7 +50,6 @@
                     }
                   });
                   return;
-
                 }
                 var template = TEMPLATES[url];
                 if (!template) {
@@ -60,13 +59,24 @@
               $('#main').fadeOut(500, function() {
                 $(this).html(template).fadeIn(500);
               });
-              
+
             });
             Backbone.history.start({pushState: true});
 
-            $('header ul a').click(function(e) {
+            $(document).on('click', 'header ul a, a.internal', function(e) {
               router.navigate($(this).attr('href'), {trigger: true});
               e.preventDefault();
+            });
+
+            $(document).on('click', '#request-submit', function(e) {
+              $.ajax({
+                type: 'POST',
+                url: '/request-a-song-submit',
+                data: $('#request-form').serialize(),
+                success: function() {
+                  $('#request-form').after('<p><br />My, what wonferful taste you have!').hide();
+                }
+              })
             });
 
           });
@@ -92,7 +102,7 @@
           </section>
         </div>
 
-       
+
         <script src="/static/js/template/template.js"></script>
         <script src="/static/js/model/guestbook.js"></script>
         <script src="/static/js/collection/guestbook.js"></script>

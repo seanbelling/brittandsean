@@ -38,7 +38,19 @@ TEMPLATES = {
 
   faq: _.template('\
     <div class="page-content">\
-      <h2>Frequentlty Asked Questions</h2>\
+      <h2>Frequently Asked Questions</h2>\
+      <dl>\
+        <dt>I heard Sean is a pretty good dancer?</dt>\
+        <dd>You heard correctly.</dd>\
+        <dt>Are you guys selling any merch?</dt>\
+        <dd>While we understand your desire to immortalise the occasion in t-shirt form, there are no plans to offer any merchandise at this stage.</dd>\
+        <dt>Can I kick it?</dt>\
+        <dd>Yes you can</dd>\
+        <dt>Are you going to play my favourite song at the reception?</dt>\
+        <dd>Maybe we will. Why not <a class="internal" href="/request">request a song</a>, friend?</dd>\
+        <dt>Is it true that Britt can skull a beer in 3 seconds?</dt>\
+        <dd>We can neither confirm or deny that.</dd>\
+      </dl>\
     </div>\
   '),
 
@@ -50,5 +62,20 @@ TEMPLATES = {
         <br />\
       <% }) %>\
     </div>\
+  '),
+
+  request: _.template('\
+    <div class="page-content">\
+      <h2>Request a Song</h2>\
+      <p>Been practising those moves for a particular song?<br />\
+      Let us know what it is below and if it the taste-maker approves\
+      we\'ll try to play it on the night</p>\
+      <form id="request-form">\
+        <input type="text" placeholder="your name" name="name" /><br />\
+        <input type="text" placeholder="artist and title" name="song" /><br />\
+        <input type="button" id="request-submit" value="play this, please" />\
+      </form>\
+    </div>\
   ')
+
 }
