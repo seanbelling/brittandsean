@@ -52,6 +52,7 @@ RewriteRule ^travelers/?$ travelers.php
 RewriteRule ^story/?$ story.php
 RewriteRule ^faq/?$ faq.php
 RewriteRule ^guestbook/?$ guestbook.php
+RewriteRule ^request/?$ request.php
 
 RewriteRule ^guestbook-service/?$ guestbook-service.php
 
