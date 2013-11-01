@@ -56,9 +56,9 @@
                   template = TEMPLATES.comingSoon;
                 }
               }
-              $('#main').fadeOut(500, function() {
+              /*$('#main').fadeOut(500, function() {
                 $(this).html(template).fadeIn(500);
-              });
+              }); */
 
             });
             Backbone.history.start({pushState: true});
