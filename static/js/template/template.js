@@ -26,7 +26,7 @@ TEMPLATES = {
       <h2>The Wedding</h2>\
       <h3>Ceremony</h3>\
       <p>The cermony will be held at the \
-      <a href="http://www.sfswedenborgian.org/Landmarking/Landmark.asp" target="_blank">Swedenborgian Church</a>
+      <a href="http://www.sfswedenborgian.org/Landmarking/Landmark.asp" target="_blank">Swedenborgian Church</a>\
       in San Francisco at 4pm on 30th August 2013<br />\
       Address: 2107 Lyon St, San Francisco, CA 94115 <a href="http://goo.gl/maps/J9Zjp" target="_blank">(map)</a></p>\
       <h3>Reception</h3>\
