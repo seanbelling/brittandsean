@@ -48,7 +48,7 @@ RewriteRule ^cd-list/?$ cddisplay.php
 
 RewriteRule ^wedding/?$ wedding.php
 RewriteRule ^story/?$ story.php
-RewriteRule ^travellers/?$ travellers.php
+RewriteRule ^travelers/?$ travelers.php
 RewriteRule ^story/?$ story.php
 RewriteRule ^faq/?$ faq.php
 RewriteRule ^guestbook/?$ guestbook.php
