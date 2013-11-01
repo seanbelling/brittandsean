@@ -75,6 +75,8 @@ TEMPLATES = {
         <dd>It has happened before, yes.</dd>\
         <dt>Do I have to wear pants?</dt>\
         <dd>Yes, Nick, yes you do.</dd>\
+        <dt>Have people really been asking you these questions frequently? Or at all for that matter?</dt>\
+        <dd>No comment.</dd>\
       </dl>\
     </div>\
   '),
