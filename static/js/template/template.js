@@ -25,7 +25,7 @@ TEMPLATES = {
     <div class="page-content">\
       <h2>The Big Day</h2>\
       <h3>Ceremony</h3>\
-      <p>True story: locals frequently walk by the unassuming grey facade of the Swedenborgain without even registering its existence.<br />\
+      <p>True story: locals frequently walk by the unassuming grey facade of the Swedenborgian without even registering its existence.<br />\
       However, a couple of our friends did notice. Rightfully intrigued, they attempted to bust through the locked iron gates.\
       Sadly they were no match for the gates and settled for a few furtive peeks into the hidden courtyard.<br />\
       Their curiosity and yours, dear friend, will soon be settled.</p>\
@@ -81,12 +81,14 @@ TEMPLATES = {
     <div class="page-content">\
       <h2>Guestbook</h2>\
       <div id="form-target"></div>\
-      <h3>Previous entries</h3>\
-      <% _.each(entries.models, function(entry) { %>\
-        <p><%= _.escape(entry.get(\'name\')) %> - <%= _.escape(entry.get(\'date\')) %><br />\
-        <span class="message"><%= _.escape(entry.get(\'message\')).replace("\\n", "<br />") %></span></p>\
-        <br />\
-      <% }) %>\
+      <% if (entries.models.length) { %>\
+        <h3>Previous entries</h3>\
+        <% _.each(entries.models, function(entry) { %>\
+          <p><%= _.escape(entry.get(\'name\')) %> - <%= _.escape(entry.get(\'date\')) %><br />\
+          <span class="message"><%= _.escape(entry.get(\'message\')).replace("\\n", "<br />") %></span></p>\
+          <br />\
+        <% }) %>\
+      <% } %>\
     </div>\
   '),
 
