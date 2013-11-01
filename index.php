@@ -64,8 +64,8 @@
             Backbone.history.start({pushState: true});
 
             $(document).on('click', 'header ul a, a.internal', function(e) {
-              router.navigate($(this).attr('href'), {trigger: true});
-              e.preventDefault();
+              //router.navigate($(this).attr('href'), {trigger: true});
+              //e.preventDefault();
             });
 
             var requestResponses = [
