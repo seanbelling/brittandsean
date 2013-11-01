@@ -44,7 +44,9 @@ RewriteCond %{REQUEST_FILENAME} -d
 
 RewriteRule ^cd-list/?$ cddisplay.php
 
-RewriteRule ^(story|wedding|travelers|faq|guestbook|request)/?$ index.php
+RewriteRule ^(wedding|travelers|faq|guestbook|request)/?$ index.php
+
+RewriteRule ^story/?$ story.php
 
 RewriteRule ^guestbook-service/?$ guestbook-service.php
 
