@@ -108,10 +108,6 @@
           </header>
 
           <section id="main">
-            <div class="page-content">
-              <h2>Our Story</h2>
-              <p>Coming soon</p>
-            </div>
           </section>
         </div>
 
