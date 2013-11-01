@@ -108,12 +108,9 @@
           </header>
 
           <section id="main">
-            <div class="main-img">
-              <div class="header-wrap">
-              <img src="/static/img/gettin-married.png" class="title" />
-                <div class="line"></div>
-              </div>
-              <img class="main" src="/static/img/main.jpg" alt="oh dear" />
+            <div class="page-content">
+              <h2>For Travelers</h2>
+              <p>Coming soon</p>
             </div>
           </section>
         </div>
