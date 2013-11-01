@@ -5,7 +5,7 @@ TEMPLATES = {
       <img src="/static/img/gettin-married.png" class="title" />\
         <div class="line"></div>\
       </div>\
-      <img class="main" src="/static/img/main.jpg" alt="lol" />\
+      <img class="main" src="/static/img/main.jpg" alt="oh dear" />\
     </div>\
 	'),
 
@@ -18,6 +18,7 @@ TEMPLATES = {
   story: _.template('\
     <div class="page-content">\
       <h2>Our Story</h2>\
+      <p>Coming soon</p>\
     </div>\
   '),
 
@@ -53,6 +54,7 @@ TEMPLATES = {
   travelers: _.template('\
     <div class="page-content">\
       <h2>For Travelers</h2>\
+      <p>Coming soon</p>\
     </div>\
   '),
 
