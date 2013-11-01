@@ -127,6 +127,9 @@ dd {
   float: left;
   margin-right: 60px;
 }
+#form-entries {
+  float: left;
+}
 
 form input[type="text"], textarea {
   border: 1px solid #C0C0C0;

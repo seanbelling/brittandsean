@@ -17,10 +17,11 @@ var GuestbookView = Backbone.View.extend({
   },
 
   newEntry: function(entry) {
-    var newCollection = new GuestbookCollection();
-    newCollection.add(entry);
-    newCollection.add(this.options.collection.models);
-    this.options.collection = newCollection;
+    //var newCollection = new GuestbookCollection();
+    //newCollection.add(entry);
+    //newCollection.add(this.options.collection.models);
+    //this.options.collection = newCollection;
+    this.options.collection.add(entry);
     this.render();
   }
 

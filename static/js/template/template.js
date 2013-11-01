@@ -81,14 +81,16 @@ TEMPLATES = {
     <div class="page-content">\
       <h2>Guestbook</h2>\
       <div id="form-target"></div>\
-      <% if (entries.models.length) { %>\
-        <h3>Previous entries</h3>\
-        <% _.each(entries.models, function(entry) { %>\
-          <p><%= _.escape(entry.get(\'name\')) %> - <%= _.escape(entry.get(\'date\')) %><br />\
-          <span class="message"><%= _.escape(entry.get(\'message\')).replace("\\n", "<br />") %></span></p>\
-          <br />\
-        <% }) %>\
-      <% } %>\
+      <div id="form-entries">\
+        <% if (entries.models.length) { %>\
+          <h3>Previous entries</h3>\
+          <% _.each(entries.models, function(entry) { %>\
+            <p><%= _.escape(entry.get(\'name\')) %> - <%= _.escape(entry.get(\'date\')) %><br />\
+            <span class="message"><%= _.escape(entry.get(\'message\')).replace("\\n", "<br />") %></span></p>\
+            <br />\
+          <% }) %>\
+        <% } %>\
+      </div>\
     </div>\
   '),
 

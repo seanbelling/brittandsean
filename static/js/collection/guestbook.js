@@ -1,3 +1,8 @@
 var GuestbookCollection = Backbone.Collection.extend({
-	model: GuestbookModel
+	model: GuestbookModel,
+
+  comparator: function(model) {
+    return -model.get('id');
+  }
+
 });
