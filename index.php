@@ -68,13 +68,23 @@
               e.preventDefault();
             });
 
+            var requestResponses = [
+              'My, what wonferful taste you have!',
+              'Music to my ears.',
+              'Oh yes, the funky chicken will be an excellent pairing with that number.',
+              'Cool, we\'ll play that after the Slayer song.',
+              'Oh, you went there didn\'t you?',
+              'Well it\'s no Burt Bacharach but I guess it\'ll do.'
+            ];
+
             $(document).on('click', '#request-submit', function(e) {
               $.ajax({
                 type: 'POST',
                 url: '/request-a-song-submit',
                 data: $('#request-form').serialize(),
                 success: function() {
-                  $('#request-form').after('<p><br />My, what wonferful taste you have!').hide();
+                  var response = requestResponses[Math.floor(Math.random()*requestResponses.length)];
+                  $('#request-form').after('<p><br />' + response).hide();
                 }
               })
             });
@@ -90,7 +100,7 @@
             <ul>
               <li><a href="/">home</a></li>
               <li><a href="/story">our story</a></li>
-              <li><a href="/wedding">the wedding</a></li>
+              <li><a href="/wedding">the big day</a></li>
               <li><a href="/travelers">for travelers</a></li>
               <li><a href="/faq">FAQ</a></li>
               <li><a href="/guestbook">guestbook</a></li>
@@ -106,6 +116,7 @@
         <script src="/static/js/template/template.js"></script>
         <script src="/static/js/model/guestbook.js"></script>
         <script src="/static/js/collection/guestbook.js"></script>
+        <script src="/static/js/view/guestbook-form.js"></script>
         <script src="/static/js/view/guestbook.js"></script>
         <script>
           (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){

@@ -48,7 +48,10 @@ RewriteRule ^(story|wedding|travelers|faq|guestbook|request)/?$ index.php
 
 RewriteRule ^guestbook-service/?$ guestbook-service.php
 
+RewriteRule ^guestbook-submit/?$ guestbook-submit.php
+
 RewriteRule ^request-a-song-submit/?$ request-a-song-submit.php
+
 
 </IfModule>
 

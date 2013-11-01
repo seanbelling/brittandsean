@@ -99,6 +99,7 @@ section#main .main-img img.main {
   margin: 20px;
   width: 900px;
   min-height: 400px;
+  padding-bottom: 20px;
 }
 .page-content h2 {
   font-size: 2em;
@@ -123,7 +124,8 @@ dd {
 }
 
 #form-target {
-  margin-bottom: 40px;
+  float: left;
+  margin-right: 60px;
 }
 
 form input[type="text"], textarea {
@@ -138,5 +140,7 @@ textarea {
   color: #999;
 }
 span.message {
+  display: block;
+  margin-top: 5px;
   font-style: italic;
 }
