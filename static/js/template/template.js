@@ -34,14 +34,14 @@ TEMPLATES = {
       in San Francisco<br />at 4pm on 30th August 2014.<br />\
       Address: 2107 Lyon St, San Francisco, CA 94115 <a href="http://goo.gl/maps/J9Zjp" target="_blank">(map)</a></p>\
       <p>The Swedenborgian has become quite the Wilde family tradition.<br />Britt\'s parents Rich and Sarah were married there in 1974\
-      and her sister Blair married her husband Ulf there in 2003.<br />\
+      and her sister Blair was married there in 2003.<br />\
       In the early hungover hours following Britt\'s 30th birthday, Sean had his first introduction to the Swedenborgian to attend\
-      Britt\'s niece\'s christening.</p>\
+      the christening of Britt\'s niece.</p>\
       <p>The Swedenborgian has heralded great love into the Wilde family and we are thrilled to begin our own journey there.</p>\
       <h3>Reception</h3>\
       <p>After the ceremony guests will be transported to the \
       <a href="http://www.presidio.gov/venues/Pages/Log-Cabin.aspx" target="_blank">Log Cabin</a> in San Francisco\'s Presidio\
-      <a href="http://goo.gl/maps/RLyKO" target="_blank">(map)</a> for fun and dancin\'.</p>\
+      <a href="http://goo.gl/maps/RLyKO" target="_blank">(map)</a> for fun, dinner and dancin\'.</p>\
       <p>Britt was living in the Presidio when she journeyed back from her European romp and initial Sean encounter. \
       Many emails were exchanged in those halcyon days. \
       Britt used to run the Presidio trails wondering if Sean would ever see the Presidio\'s beauty alongside her. \
