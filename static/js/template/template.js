@@ -51,7 +51,7 @@ TEMPLATES = {
         <dd>You heard correctly.</dd>\
         <dt>Are you going to play my favourite song at the reception?</dt>\
         <dd>Maybe we will. Why not <a class="internal" href="/request">request a song</a>, friend?</dd>\
-        <dt>Is it true that Britt makes cookies that are so delicious that her friend\'s steal some to take home with them?</dt>\
+        <dt>Is it true that Britt makes cookies that are so delicious that her friends steal some to take home with them?</dt>\
         <dd>It has happened before, yes.</dd>\
         <dt>Do I have to wear pants?</dt>\
         <dd>Yes, Nick, yes you do.</dd>\
