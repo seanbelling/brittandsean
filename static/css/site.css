@@ -95,6 +95,17 @@ section#main .main-img img.main {
   z-index: 1;
 }
 
+section#main .louise-title {
+  font-family: 'League Script', cursive;
+  text-align: center;
+  width: 960px;
+  color: #000;
+  font-size: 3em;
+  position: absolute;
+  top: 30px;
+  z-index: 999;
+}
+
 .page-content {
   margin: 20px;
   width: 900px;

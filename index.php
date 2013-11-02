@@ -14,7 +14,7 @@
 
         <link rel="stylesheet" href="/static/css/normalize.css">
         <link rel="stylesheet" href="/static/css/site.css">
-        <link href='http://fonts.googleapis.com/css?family=Didact+Gothic' rel='stylesheet' type='text/css'>
+        <link href='http://fonts.googleapis.com/css?family=League+Script|Didact+Gothic' rel='stylesheet' type='text/css'>
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
         <script src="//cdnjs.cloudflare.com/ajax/libs/underscore.js/1.5.2/underscore-min.js"></script>
         <script src="//cdnjs.cloudflare.com/ajax/libs/backbone.js/1.1.0/backbone-min.js"></script>
@@ -106,19 +106,25 @@
             </u>
           </header>
 
+
+
           <section id="main">
             <div class="main-img">
+            <?php
+                $rand = rand(0,2);
+                if ($rand == 1) {
+            ?>
+            <h2 class="louise-title">coming soon to a wedding near you</h2>
+            <img class="main" src="/static/img/lake-louise.jpg" alt="aww" />
+
+            <?php } else { ?>
+
               <div class="header-wrap">
-              <img src="/static/img/gettin-married.png" class="title" />
+                <img src="/static/img/gettin-married.png" class="title" />
                 <div class="line"></div>
               </div>
-              <?php
-                $imgUrl = 'main.jpg';
-                $rand = rand(0,3);
-                if ($rand == 1)
-                  $imgUrl = 'lake-louise.jpg';
-              ?>
-              <img class="main" src="/static/img/<?php echo $imgUrl; ?>" alt="oh dear" />
+              <img class="main" src="/static/img/main.jpg" alt="oh dear" />
+            <?php } ?>
             </div>
           </section>
         </div>
