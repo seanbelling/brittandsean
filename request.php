@@ -108,6 +108,18 @@
           </header>
 
           <section id="main">
+            <div class="page-content">
+              <h2>Request a Song</h2>
+              <p>Been practising those moves for a particular song?<br />
+              Let us know what it is below and if it the taste-maker approves
+              we'll try to play it on the night.</p>
+              <form id="request-form">
+                <input type="text" placeholder="your name" name="name" /><br />
+                <input type="text" placeholder="artist" name="artist" /><br />
+                <input type="text" placeholder="song" name="song" /><br />
+                <input type="button" id="request-submit" value="play this, please" />
+              </form>
+            </div>
           </section>
         </div>
 

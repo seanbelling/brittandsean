@@ -99,7 +99,6 @@
             <h1>BRITT &amp; SEAN.</h1>
             <ul>
               <li><a href="/">home</a></li>
-              <li><a href="/story">our story</a></li>
               <li><a href="/wedding">the big day</a></li>
               <li><a href="/travelers">for travelers</a></li>
               <li><a href="/faq">FAQ</a></li>
