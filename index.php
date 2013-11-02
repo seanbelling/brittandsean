@@ -112,7 +112,13 @@
               <img src="/static/img/gettin-married.png" class="title" />
                 <div class="line"></div>
               </div>
-              <img class="main" src="/static/img/main.jpg" alt="oh dear" />
+              <?php
+                $imgUrl = 'main.jpg';
+                $rand = rand(0,3);
+                if ($rand == 1)
+                  $imgUrl = 'lake-louise.jpg';
+              ?>
+              <img class="main" src="/static/img/<?php echo $imgUrl; ?>" alt="oh dear" />
             </div>
           </section>
         </div>
