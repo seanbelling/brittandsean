@@ -1,8 +1,6 @@
 var GuestbookFormView = Backbone.View.extend({
 
   events: {
-    'focus textarea': 'onFocus',
-    'blur textarea': 'onBlur',
     'click #guestbook-submit': 'formSubmit'
   },
 
@@ -16,20 +14,6 @@ var GuestbookFormView = Backbone.View.extend({
   render: function() {
     this.$el.html(this.template());
     return this;
-  },
-
-  onFocus: function(e) {
-    var $textArea = $(e.target);
-    if ($textArea.val() == this.defaultText) {
-      $textArea.val('').css('color', '#000');
-    }
-  },
-
-  onBlur: function(e) {
-    var $textArea = $(e.target);
-    if (!$textArea.val()) {
-      $textArea.val(this.defaultText).css('color', '#999');
-    }
   },
 
   formSubmit: function(e) {

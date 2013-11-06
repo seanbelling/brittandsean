@@ -43,7 +43,7 @@
                     success: function(data) {
                       var guestbookEntries = new GuestbookCollection(data);
                       var guestbookView = new GuestbookView({
-                        collection: guestbookEntries
+                        collection: guestbookEntries,
                       });
                       $('#main').html(guestbookView.render().$el);
                       return;
@@ -58,7 +58,7 @@
               }
               /*$('#main').fadeOut(500, function() {
                 $(this).html(template).fadeIn(500);
-              }); */
+              });*/
 
             });
             Backbone.history.start({pushState: true});
@@ -106,9 +106,7 @@
             </u>
           </header>
 
-
-
-          <section id="main">
+          <section id="main" style="padding-bottom:0;">
             <div class="main-img">
             <?php
                 $rand = rand(0,2);

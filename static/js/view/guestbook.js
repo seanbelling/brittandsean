@@ -1,5 +1,8 @@
 var GuestbookView = Backbone.View.extend({
 
+
+  className: 'page-content',
+
 	initialize: function(options) {
     _.bindAll(this, 'newEntry');
 		this.template = TEMPLATES.guestbook;

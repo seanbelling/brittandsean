@@ -82,8 +82,8 @@ TEMPLATES = {
   '),
 
   guestbook: _.template('\
-    <div class="page-content clearfix">\
-      <h2>Guestbook</h2>\
+    <h2>Guestbook</h2>\
+    <div class="clearfix">\
       <div id="form-target"></div>\
       <div id="form-entries">\
         <% if (entries.models.length) { %>\
@@ -102,7 +102,7 @@ TEMPLATES = {
     <form id="guestbook-form">\
       <input type="text" placeholder="your name" name="name" /><br />\
       <input type="text" placeholder="your email" name="email" /><br />\
-      <textarea name="message">write your message here</textarea><br />\
+      <textarea name="message" placeholder="write your message here"></textarea><br />\
       <input type="button" id="guestbook-submit" value="submit" />\
     </form>\
   '),

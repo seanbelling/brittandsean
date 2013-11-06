@@ -1,6 +1,8 @@
 body {
   background-color: #AFD8D5;
+  background-image: url(/static/img/wood-bg.jpg);
   font-family: 'Didact Gothic', sans-serif;
+  color: #000;
 }
 .clearfix:after {
   content: ".";
@@ -17,24 +19,30 @@ body {
 
 #content {
   width: 960px;
-  margin: 0px auto 20px;
+  margin: 0px auto 30px;
   padding-top: 20px;
-  background-color: #FFF;
-  -webkit-box-shadow: 0px -25px 25px rgba(50, 50, 50, 0.3);
-  -moz-box-shadow:    0px -25px 25px rgba(50, 50, 50, 0.3);
-  box-shadow:         0px -25px 25px rgba(50, 50, 50, 0.3);
+  background-color: #AFD8D5;
+  -webkit-box-shadow: 0px 15x 25px rgba(0, 0, 0, 0.9);
+  -moz-box-shadow:    0px 15px 25px rgba(0, 0, 0, 0.9);
+  box-shadow:         0px 15px 25px rgba(0, 0, 0, 0.9);
 }
 header {
   width: 100%;
   border-bottom: 1px solid #000;
+
 }
 header h1 {
   float: left;
   margin-left: 5px;
   margin-bottom: 5px;
+  text-transform: uppercase;
   text-indent: -9000px;
   width: 239px;
   height: 29px;
+  font-size:2em;
+  font-weight: bold;
+  color:#000;
+  text-shadow: -3px 2px #FFF;
   background-image: url(/static/img/britt-and-sean.png);
 }
 header h1:hover {
@@ -61,9 +69,13 @@ header ul li:hover a {
 header ul li a {
   text-decoration: none;
   text-transform: capitalize;
-  color: #000;
+  color: #333;
 }
 
+section#main {
+  margin-top: -7px;
+  padding-bottom: 20px;
+}
 section#main .main-img {
   position: relative;
 }
@@ -107,10 +119,14 @@ section#main .louise-title {
 }
 
 .page-content {
-  margin: 20px;
-  width: 900px;
+  margin: 20px auto;
+  width: 880px;
   min-height: 400px;
-  padding-bottom: 20px;
+  padding: 20px;
+  border-radius: 15px;
+  background-color: #FFF;
+  box-shadow: 2px 2px 2px #333;
+  margin-bottom: 20px;
 }
 .page-content h2 {
   font-size: 2em;
