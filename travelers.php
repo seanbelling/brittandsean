@@ -109,7 +109,35 @@
           <section id="main">
             <div class="page-content">
               <h2>For Travelers</h2>
-              <p>Coming soon</p>
+              <h3>Accomodation</h3>
+              <p>San Francisco is hip, delicious, and a whole lotta fun. Of course this is no secret and the city buzzes with locals and tourists alike. August 30 falls on Labor Day weekend which means two things: locals tend to flee the city while tourists tend to invade. While the overall population may remain the same, you can bet that motels, hotels, and vacation rentals will go quickly.</p>
+              <p>Our suggestion: Experience SF like a local and rent a flat (SF speak for apartment) on Airbnb.com with a few friends. SF is really just a collection of very distinct neighborhoods, each with its own flavor and culture.</p>
+
+              <ul>
+                <li>Consult: <a href="http://www.sfgate.com/neighborhoods/" target="_blank">http://www.sfgate.com/neighborhoods/</a></li>
+                <li>Laugh with: <a href="http://www.thebolditalic.com/articles/1958-moving-to-san-francisco" target="_blank">http://www.thebolditalic.com/articles/1958-moving-to-san-francisco</a></li>
+                <li>Play with: <a href="https://www.airbnb.com/locations/san-francisco/neighborhoods" target="_blank">https://www.airbnb.com/locations/san-francisco/neighborhoods</a> to get a feel for where you want to be. Just make sure that you are in close proximity to MUNI or BART to make your inner-city transit easy.</li>
+              </ul>
+
+              <h4><b>Our Airbnb.com favorites:</b></h4>
+              <ul>
+                <li><a href="https://www.airbnb.com/rooms/361945?checkin=08%2F29%2F2014&checkout=08%2F31%2F2014&guests=2&s=c1bd" target="_blank">4 person Duboce Triangle</a></li>
+                <li><a href="https://www.airbnb.com/rooms/1030352?checkin=08%2F29%2F2014&checkout=08%2F31%2F2014&guests=2&s=f89b" target="_blank">5 person Mission</a></li>
+                <li><a href="https://www.airbnb.com/rooms/2038935?checkin=08%2F29%2F2014&checkout=08%2F31%2F2014&guests=2&s=f89b" target="_blank">5 person Mission plus</a></li>
+                <li><a href="https://www.airbnb.com/rooms/707354?checkin=08%2F29%2F2014&checkout=08%2F31%2F2014&guests=2&s=8b9b" target="_blank">6 person Telegraph Hill</a></li>
+                <li><a href="https://www.airbnb.com/rooms/1783174?checkin=08%2F29%2F2014&checkout=08%2F31%2F2014&guests=5&s=ecc4" target="_blank">7 person Divisidero Corridor</a></li>
+                <li><a href="https://www.airbnb.com/rooms/1081165?checkin=08%2F29%2F2014&checkout=08%2F31%2F2014&guests=5&s=46fb" target="_blank">7 person Pacific Heights</a></li>
+                <li><a href="https://www.airbnb.com/rooms/1257035?checkin=08%2F29%2F2014&checkout=08%2F31%2F2014&guests=6&s=c669" target="_blank">8 person Upper Haight</a></li>
+              </ul>
+
+              <h4><b>Hotels</b></h4>
+              <p>Hotels in SF tend to be expensive. Expect $250+ for downtown and boutique hotels. Each has a different feel and style.<br />Here are a few favorites:</p>
+              <ul>
+                <li><a target="_blank" href="http://www.wsanfrancisco.com/">Large and modern: The W</a></li>
+                <li><a target="_blank" href="http://www.hotelpalomar-sf.com/">Small and boutique: Hotel Palomar</a></li>
+                <li><a target="_blank" href="http://www3.hilton.com/en/hotels/california/hilton-san-francisco-union-square-SFOFHHH/index.html">A safe bet: Union Square Hilton</a></li>
+                <li><a target="_blank" href="http://www.sfpalace.com/">An Opulent SF institution: The Palace Hotel</a></li>
+              </ul>
             </div>
           </section>
         </div>
