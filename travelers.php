@@ -113,10 +113,13 @@
               <p>San Francisco is hip, delicious, and a whole lotta fun. Of course this is no secret and the city buzzes with locals and tourists alike. August 30 falls on Labor Day weekend which means two things: locals tend to flee the city while tourists tend to invade. While the overall population may remain the same, you can bet that motels, hotels, and vacation rentals will go quickly.</p>
               <p>Our suggestion: Experience SF like a local and rent a flat (SF speak for apartment) on Airbnb.com with a few friends. SF is really just a collection of very distinct neighborhoods, each with its own flavor and culture.</p>
 
+              <p>To see what works for you...</p>
+
               <ul>
                 <li>Consult: <a href="http://www.sfgate.com/neighborhoods/" target="_blank">http://www.sfgate.com/neighborhoods/</a></li>
                 <li>Laugh with: <a href="http://www.thebolditalic.com/articles/1958-moving-to-san-francisco" target="_blank">http://www.thebolditalic.com/articles/1958-moving-to-san-francisco</a></li>
-                <li>Play with: <a href="https://www.airbnb.com/locations/san-francisco/neighborhoods" target="_blank">https://www.airbnb.com/locations/san-francisco/neighborhoods</a> to get a feel for where you want to be. Just make sure that you are in close proximity to MUNI or BART to make your inner-city transit easy.</li>
+                <li>Play with: <a href="https://www.airbnb.com/locations/san-francisco/neighborhoods" target="_blank">https://www.airbnb.com/locations/san-francisco/neighborhoods</a><br /><br />
+                Just make sure that you are in close proximity to <a href="http://www.sfmta.com/maps" target="_blank">MUNI</a> or <a href="https://www.bart.gov/stations" target="_blank">BART</a> to make your inner-city transit easy.</li>
               </ul>
 
               <h4><b>Our Airbnb.com favorites:</b></h4>
@@ -131,7 +134,7 @@
               </ul>
 
               <h4><b>Hotels</b></h4>
-              <p>Hotels in SF tend to be expensive. Expect $250+ for downtown and boutique hotels. Each has a different feel and style.<br />Here are a few favorites:</p>
+              <p>Hotels in SF tend to be expensive. Expect $250+ for downtown and boutique hotels. Each has a different feel and style.<br />Here are a few solid options:</p>
               <ul>
                 <li><a target="_blank" href="http://www.wsanfrancisco.com/">Large and modern: The W</a></li>
                 <li><a target="_blank" href="http://www.hotelpalomar-sf.com/">Small and boutique: Hotel Palomar</a></li>
