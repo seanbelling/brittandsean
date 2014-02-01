@@ -37,37 +37,8 @@
 
           <section id="main">
             <div class="page-content">
-              <h2>Registry</h2>
-              <p>Your presence at our wedding, along with your good wishes,
-                blessings and thoughts are (quite seriously) the most memorable
-                and thoughtful gift you could give us.</p>
-              <p>Though We realize that some of you will still want to give a gift
-                to help us build our home and begin our journey together.</p>
-              <p>We have created a few registries that work for us &ndash; both tangible items that we will be thrilled to have, and honeymoon experiences that will be sure to create lasting memories.</p>
-
-              <ul style="width:770px;margin:60px auto;display:block;" class="clearfix">
-                <li style="float:left;width:250px;">
-                  <a href="http://www.williams-sonoma.com/registry/67fkgjwwfx/registry-list.html" target="_blank">
-                    <img src="/static/img/williams-sonoma-logo.png" alt="cookware, oh my!" />
-                  </a>
-                  <p><br /><br />Living together for awhile, you'd think we have everything we need. Not so. We (mainly Sean) love spending time in the kitchen and are in need of both basic and not-so basic kitchen tools.</p>
-                </li>
-                <li style="float:left;width:250px;margin:0 10px;">
-                  <a href="http://www.heathceramics.com/giftregistry/view/index/id/d50a5c0ed94a9d673b8ce03a16e585b3/" target="_blank">
-                    <img src="/static/img/heath-logo.png" alt="plates, oooooh" />
-                  </a>
-                  <p><br /><br />Heath Ceramics is a local company that has produced hand spun ceramics for over 60 years. Their dinnerware is stunning and will surely outshine the meals that we prepare and place on it. We're ok with that.</p>
-                </li>
-
-                <li style="float:left;width:250px;">
-                  <a href="http://www.wanderable.com/hm/BrittAndSean" target="_blank">
-                    <img alt="My Wanderable Honeymoon Registry" src="http://www.wanderable.com/images/ads/wanderable_hm.png">
-                  </a>
-                  <p><br /><br />We are heading to a couple pretty crazy places for our honeymoon. If you'd rather gift us with an amazing experience, we have created a honeymoon registry full of exciting options.</p>
-
-                </li>
-
-              </ul>
+              <h2>Things to do</h2>
+              <p>coming soon!!</p>
 
             </div>
           </section>
