@@ -5,9 +5,9 @@
         <li><a href="/">home</a></li>
         <li><a href="/wedding">the big day</a></li>
         <li>
-          <a href="/travelers">for travelers</a>
+          <a href="#">for travelers</a>
           <ul>
-            <li><a href="/">accomodation</a></li>
+            <li><a href="/accommodation">accommodation</a></li>
             <li><a href="/">transportation</a></li>
             <li><a href="/things-to-do">things to do</a></li>
           </ul>

@@ -25,8 +25,8 @@
         $tempArray->date = $date;
         echo json_encode($tempArray);
       }
-
     }
+
   }
 	$mysqli->close();
 
