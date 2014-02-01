@@ -14,8 +14,8 @@
     }
     $statement->close();
 
-    $to      = 'seanbelling@gmail.com';
-    $subject = 'new guestbook entry (you are popular)!';
+    $to      = 'seanbelling@gmail.com,brittewilde@gmail.com';
+    $subject = 'new guestbook entry (you are popular)';
     $message = '<html><body>check out <a href="http://www.brittandsean.com/guestbook">the guest book here</a></body></html>';
     $headers = 'From: sean@sean.com' . "\r\n" .
         'Reply-To: sean@sean.com' . "\r\n" .
