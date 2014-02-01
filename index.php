@@ -1,3 +1,6 @@
+<?php
+  require_once 'header.php';
+?>
 <!DOCTYPE html>
 <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
@@ -97,13 +100,7 @@
         <div id="content">
           <header class="clearfix">
             <h1>BRITT &amp; SEAN.</h1>
-            <ul>
-              <li><a href="/">home</a></li>
-              <li><a href="/wedding">the big day</a></li>
-              <li><a href="/travelers">for travelers</a></li>
-              <li><a href="/faq">FAQ</a></li>
-              <li><a href="/guestbook">guestbook</a></li>
-            </u>
+            <?php echo printHeader(); ?>
           </header>
 
           <section id="main" style="padding-bottom:0;">

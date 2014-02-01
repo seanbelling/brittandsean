@@ -53,6 +53,7 @@ header ul {
   width: 650px;
   float: right;
   margin-top: 12px;
+  position: relative;
 }
 header ul li {
   list-style: none;
@@ -70,6 +71,30 @@ header ul li a {
   text-decoration: none;
   text-transform: capitalize;
   color: #333;
+}
+
+header ul li ul {
+  display: none;
+  position: absolute;
+  left: 197px;
+  top: 10px;
+  z-index: 101;
+  width: 140px;
+  background-color: #000;
+}
+header ul li:hover ul {
+  display: block;
+}
+header ul li ul li {
+  display: block;
+  border-bottom: 1px dotted #C0C0C0;
+  margin-bottom: 5px;
+}
+header ul li ul li:last-child {
+  border-bottom: none;
+}
+header ul li ul li a {
+  color: #FFF;
 }
 
 section#main {
@@ -115,7 +140,7 @@ section#main .louise-title {
   font-size: 3em;
   position: absolute;
   top: 30px;
-  z-index: 999;
+  z-index: 100;
 }
 
 .page-content {

@@ -1,3 +1,6 @@
+<?php
+  require_once 'header.php';
+?>
 <!DOCTYPE html>
 <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
@@ -97,19 +100,13 @@
         <div id="content">
           <header class="clearfix">
             <h1>BRITT &amp; SEAN.</h1>
-            <ul>
-              <li><a href="/">home</a></li>
-              <li><a href="/wedding">the big day</a></li>
-              <li><a href="/travelers">for travelers</a></li>
-              <li><a href="/faq">FAQ</a></li>
-              <li><a href="/guestbook">guestbook</a></li>
-            </u>
+            <?php echo printHeader(); ?>
           </header>
 
           <section id="main">
             <div class="page-content">
-              <h2>For Travelers</h2>
-              <h3>Accomodation</h3>
+              <h2>Accomodation</h2>
+
               <p>San Francisco is hip, delicious, and a whole lotta fun. Of course this is no secret and the city buzzes with locals and tourists alike. August 30 falls on Labor Day weekend which means two things: locals tend to flee the city while tourists tend to invade. While the overall population may remain the same, you can bet that motels, hotels, and vacation rentals will go quickly.</p>
               <p>Our suggestion: Experience SF like a local and rent a flat (SF speak for apartment) on Airbnb.com with a few friends. SF is really just a collection of very distinct neighborhoods, each with its own flavor and culture.</p>
 
