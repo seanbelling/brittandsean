@@ -14,6 +14,17 @@
     }
     $statement->close();
 
+    $to      = 'seanbelling@gmail.com';
+    $subject = 'new guestbook entry (you are popular)!';
+    $message = '<html><body>check out <a href="http://www.brittandsean.com/guestbook">the guest book here</a></body></html>';
+    $headers = 'From: sean@sean.com' . "\r\n" .
+        'Reply-To: sean@sean.com' . "\r\n" .
+        'X-Mailer: PHP/' . phpversion() . "\r\n" .
+      "MIME-Version: 1.0" . "\r\n" .
+      "Content-type:text/html;charset=iso-8859-1" . "\r\n";
+
+    mail($to, $subject, $message, $headers);
+
     $lastId = $mysqli->insert_id;
     $myArray = array();
     if ($result = $mysqli->query('SELECT * FROM guestbook_entry where id = ' . $lastId)) {
