@@ -106,7 +106,6 @@
           <section id="main">
             <div class="page-content">
               <h2>The Big Day</h2>
-              <h3>Ceremony</h3>
               <div style="text-align:center;font-size:110%;font-weight:bold;"><p>We are happy to announce that our cermony will be held at the<br />
               Swedenborgian Church in San Francisco<br />at 4pm on 30th August 2014.<br />
               2107 Lyon St, San Francisco, CA 94115 <a href="http://goo.gl/maps/J9Zjp" target="_blank">(map)</a></p></div>
