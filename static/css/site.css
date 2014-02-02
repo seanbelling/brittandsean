@@ -180,6 +180,9 @@ section#main .louise-title {
 b {
   font-weight: 700;
 }
+i {
+  font-style: italic;
+}
 
 dt {
   font-style: italic;
