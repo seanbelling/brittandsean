@@ -6,14 +6,14 @@
         <li><a href="/wedding">the big day</a></li>
         <li>
           <a href="#">for travelers</a>
-          <ul>
+          <ul class="travelers">
             <li><a href="/accommodation">accommodation</a></li>
             <li><a href="/things-to-do">things to do</a></li>
           </ul>
         </li>
         <li>
           <a href="#">transportation</a>
-          <ul>
+          <ul class="transportation">
             <li><a href="/transportation-general">general info</a></li>
             <li><a href="/transportation-day-of">day of</a></li>
           </ul>

@@ -37,23 +37,24 @@
 
           <section id="main">
             <div class="page-content">
-              <h2>Day of transportation</h2>
-              <h3>Driving:</h3>
-              <p>Street parking near the Swedenborgian is available but not easy. There are multiple small parking lots next to the Log Cabin. Driving will be your best bet if you do not plan on drinking and you need to make a quick exit after the reception ends at 11pm. </p>
+              <h2>Day Of Transportation</h2>
+                <div class="clearfix"><div class="term"><h3>Driving:</h3></div>
+                <div class="def"><p>Street parking near the Swedenborgian is available but not easy. There are multiple small parking lots next to the Log Cabin. Driving will be your best bet if you do not plan on drinking and you need to make a quick exit after the reception ends at 11pm. </p></div></div>
 
-              <h3>Taxi:</h3>
-              <p>Hires may be easy (call early!) for transport to the Swedenborgian, however taxi service from the Log Cabin is nearly impossible-- Taxis will not pick up passengers from the Presidio on Saturday nights. Ride-share services like <a href="https://www.uber.com/" target="_blank">Uber</a> and <a href="http://www.lyft.com/" target="_blank">Lyft</a> are highly recommended although their late-night availability from the Presidio is not guaranteed.</p>
 
-              <h3>Public Transportation:</h3>
-              <p>The Swedenborgian lies one block from the MUNI <a href="https://www.sfmta.com/getting-around/transit/routes-stops/3-jackson" target="_blank">3</a> and <a href="https://www.sfmta.com/getting-around/transit/routes-stops/43-masonic" target="_blank">43</a> lines, and three blocks from the MUNI <a href="https://www.sfmta.com/getting-around/transit/routes-stops/1-california" target="_blank">1</a>, <a href="https://www.sfmta.com/getting-around/transit/routes-stops/2-clement" target="_blank">2</a>, and <a href="https://www.sfmta.com/getting-around/transit/routes-stops/24-divisadero" target="_blank">24</a> lines. Public transportation is not available from the Log Cabin. </p>
+                <div class="clearfix"><div class="term"><h3>Taxi:</h3></div>
+                <div class="def"><p>Hires may be easy (call early!) for transport to the Swedenborgian, however taxi service from the Log Cabin is nearly impossible-- Taxis will not pick up passengers from the Presidio on Saturday nights. Ride-share services like <a href="https://www.uber.com/" target="_blank">Uber</a> and <a href="http://www.lyft.com/" target="_blank">Lyft</a> are highly recommended although their late-night availability from the Presidio is not guaranteed.</p></div></div>
 
-              <h3>Provided Transportation:</h3>
-              <p>We are providing a shuttle for out-of-town guests that will depart from the Hilton Union Square-- 333 O'Farrell Street-- at promptly 3pm to arrive at the Swedenborgian for a 4pm ceremony. After the ceremony, all guests will be transported to the Log Cabin for the reception. Shuttles will be available starting at 10pm to shuttle guests from the Log Cabin back to the Hilton Union Square, where taxis and public transportation are plentiful. </p>
+                <div class="clearfix"><div class="term"><h3>Public Transportation:</h3></div>
+                <div class="def"><p>The Swedenborgian lies one block from the MUNI <a href="https://www.sfmta.com/getting-around/transit/routes-stops/3-jackson" target="_blank">3</a> and <a href="https://www.sfmta.com/getting-around/transit/routes-stops/43-masonic" target="_blank">43</a> lines, and three blocks from the MUNI <a href="https://www.sfmta.com/getting-around/transit/routes-stops/1-california" target="_blank">1</a>, <a href="https://www.sfmta.com/getting-around/transit/routes-stops/2-clement" target="_blank">2</a>, and <a href="https://www.sfmta.com/getting-around/transit/routes-stops/24-divisadero" target="_blank">24</a> lines. Public transportation is not available from the Log Cabin. </p></div></div>
 
-              <h3>Our Suggestion:</h3>
-              <p><b>Out-of-Towners: Plan on being on the downtown shuttle at 3pm for a no-hassle transit to the ceremony. You will be transported from the ceremony to the reception. At the end of the reception (sad face) you will be transported back downtown where you can carry on wit' yo bad self.</b></p>
+                <div class="clearfix"><div class="term"><h3>Provided Transportation:</h3></div>
+                <div class="def"><p>We are providing a shuttle for out-of-town guests that will depart from the Hilton Union Square-- 333 O'Farrell Street-- at promptly 3pm to arrive at the Swedenborgian for a 4pm ceremony. After the ceremony, all guests will be transported to the Log Cabin for the reception. Shuttles will be available starting at 10pm to shuttle guests from the Log Cabin back to the Hilton Union Square, where taxis and public transportation are plentiful. </p></div></div>
 
-              <p><b>Locals: Allow enough time for walking, MUNI'ing or taxi/uber/lyft'ing to get your gorgeous self to the Swedenborgian for a 4pm ceremony. After the ceremony, ride our shuttle to the Log Cabin. After the reception, take our shuttle back downtown to carry on the debauchery or taxi/MUNI/BART back home :(.</b></p>
+                <div class="clearfix"><div class="term"><h3>Our Suggestion:</h3></div>
+                <div class="def"><p><b>Out-of-Towners: Plan on being on the downtown shuttle at 3pm for a no-hassle transit to the ceremony. You will be transported from the ceremony to the reception. At the end of the reception (sad face) you will be transported back downtown where you can carry on wit' yo bad self.</b></p>
+
+                <p><b>Locals: Allow enough time for walking, MUNI'ing or taxi/uber/lyft'ing to get your gorgeous self to the Swedenborgian for a 4pm ceremony. After the ceremony, ride our shuttle to the Log Cabin. After the reception, take our shuttle back downtown to carry on the debauchery or taxi/MUNI/BART back home :(.</b></p></div></div>
 
             </div>
           </section>

@@ -76,12 +76,18 @@ header ul li a {
 header ul li ul {
   display: none;
   position: absolute;
-  left: 197px;
   top: 10px;
   z-index: 101;
   width: 140px;
   background-color: #000;
 }
+header ul li ul.travelers {
+  left: 187px;
+}
+header ul li ul.transportation {
+  left: 309px;
+}
+
 header ul li:hover ul {
   display: block;
 }
@@ -181,6 +187,16 @@ dt {
 }
 dd {
   margin-bottom: 1em;
+}
+
+div.term {
+  width: 200px;
+  float: left;
+  margin-right: 10px;
+}
+div.def {
+  width: 560px;
+  float: left;
 }
 
 #form-target {
