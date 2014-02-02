@@ -37,8 +37,7 @@
 
           <section id="main">
             <div class="page-content">
-              <h2>General Info</h2>
-              <h3>To/From SFO</h3>
+              <h2>To/From SFO</h2>
 
               <div class="clearfix"><div class="term"><h3>BART</h3></div>
               <div class="def"><p>Tickets are about $8.65 for one way airport transit and can be purchased with cash or credit card on site. You can load double that fare and keep your ticket for your return trip. Departures occur approx every 20 minutes. </p>
@@ -50,7 +49,7 @@
               <div class="clearfix"><div class="term"><h3>Super Shuttle</h3></div>
               <div class="def"><p>Shared shuttle service. Can be taken impromptu upon arrival at SFO or booked in advance for transport to SFO. Rates start at $20. Transit time can be over 1 hour due to multiple stops. <a href="http://www.supershuttle.com/Locations/SFOAirportShuttleSanFrancisco.aspx" target="_blank">more info</a>.</p></div></div>
 
-              <h3>Within San Francisco</h3>
+              <h2>Within San Francisco</h2>
               <div class="clearfix"><div class="term"><h3>MUNI</h3></div>
               <div class="def"><p>Despite local's love/hate relationship with MUNI, it is very convenient and dependable. Fare is $2 &ndash; paid in cash to the driver. Drivers will not make change!!! Make sure you have the exact amount or forfeit a larger bill. Hold on to your voucher &ndash; it is good for any transfers or returns within 90 minutes of issuance. If you plan on using your smartphone, download a free muni app that will show you different lines, connections, and real-time departures and arrivals. If you plan on heavy muni-travel and sight-seeing, consider a pass: <a href="https://www.sfmta.com/getting-around/transit/fares-passes/visitor-day-passes" target="_blank">more info</a></p></div></div>
 
@@ -60,7 +59,17 @@
               <div class="clearfix"><div class="term"><h3>Taxis, Uber, and Lyft, oh my!!</h3></div>
               <div class="def"><p>Taxis (<a href="http://yellowcabsf.com/index.php/9-uncategorised/89-book" target="_blank">Yellow Cab</a>, <a href="http://www.luxorcab.com/" target="_blank">Luxor</a>, <a href="http://www.desotosf.com/" target="_blank">DeSoto</a>) are fairly easy to catch and most take credit cards. You can also call for pick-ups, although wait times vary.</p>
 
-              <p><a href="https://www.uber.com/cities/san-francisco" target="_blank">Uber</a> and <a href="http://www.lyft.me/" target="_blank">Lyft</a> are the new SF transit darlings. Albeit a steeper learning curve than taxis, those with smartphones and tech prowess will find the Uber and Lyft apps user-friendly and very convenient.</p></p></div></div>
+              <p><a href="https://www.uber.com/cities/san-francisco" target="_blank">Uber</a> and <a href="http://www.lyft.me/" target="_blank">Lyft</a> are the new SF transit darlings. Albeit a steeper learning curve than taxis, those with smartphones and tech prowess will find the Uber and Lyft apps user-friendly and very convenient.</p></div></div>
+
+              <h2>Outside San Francisco</h2>
+              <div class="clearfix"><div class="term"><h3>BART</h3></div>
+              <div class="def"><p>Convenient and fast, although service is limited to select destinations. Great for trips to Oakland and Berkeley.</p></div></div>
+
+              <div class="clearfix"><div class="term"><h3>Car Rentals</h3></div>
+              <div class="def"><p>All of the major companies have pick-up spots in various SF locations. Recommended only for transit outside of SF city limits! While parking is easier during Labor Day weekend than typical days, it is VERY expensive to park a car if staying downtown- expect $40+ parking per day in addition to accommodation.</p></div></div>
+
+              <div class="clearfix"><div class="term"><h3>Shuttles/Excursions</h3></div>
+              <div class="def"><p>If you're looking for transportation out of the city to a commonly visited site (Muir Woods, Wine Country, etc), you may be able to book day trips with a variety of tourist and travel companies. See Things To Do for more information.</p></div></div>
 
             </div>
           </section>
