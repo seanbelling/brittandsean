@@ -108,7 +108,7 @@
               <h2>The Big Day</h2>
               <div style="text-align:center;font-size:110%;"><p>We are happy to announce that our cermony will be held at the</p></div>
               <div style="text-align:center;font-size:110%;font-weight:bold;">
-              Swedenborgian Church<br />30th August 2014 at 4pm.<br />
+              Swedenborgian Church<br />30th August 2014 at 4pm<br />
               2107 Lyon Street, San Francisco, CA 94115 <a href="http://goo.gl/maps/J9Zjp" target="_blank">(map)</a></p></div>
               <p>The <a href="http://www.sfswedenborgian.org/Landmarking/Landmark.asp" target="_blank">Swedenborgian</a> has become quite the Wilde family tradition.<br />Britt's parents Rich and Sarah were married there in 1974
               and her sister Blair was married there in 2003.<br />
