@@ -107,14 +107,14 @@
             <div class="page-content">
               <h2>The Big Day</h2>
               <h3>Ceremony</h3>
+              <div style="text-align:center;font-size:110%;font-weight:bold;"><p>We are happy to announce that our cermony will be held at the<br />
+              <a href="http://www.sfswedenborgian.org/Landmarking/Landmark.asp" target="_blank">Swedenborgian Church</a>
+              in San Francisco<br />at 4pm on 30th August 2014.<br />
+              2107 Lyon St, San Francisco, CA 94115 <a href="http://goo.gl/maps/J9Zjp" target="_blank">(map)</a></p></div>
               <p>True story: locals frequently walk by the unassuming grey facade of the Swedenborgian without even registering its existence.<br />
               However, a couple of our friends did notice. Rightfully intrigued, they attempted to bust through the locked iron gates.
               Sadly they were no match for the gates and settled for a few furtive peeks into the hidden courtyard.<br />
               Their curiosity and yours, dear friend, will soon be settled.</p>
-              <p>We are happy to announce that our cermony will be held at the
-              <a href="http://www.sfswedenborgian.org/Landmarking/Landmark.asp" target="_blank">Swedenborgian Church</a>
-              in San Francisco<br />at 4pm on 30th August 2014.<br />
-              Address: 2107 Lyon St, San Francisco, CA 94115 <a href="http://goo.gl/maps/J9Zjp" target="_blank">(map)</a></p>
               <p>The Swedenborgian has become quite the Wilde family tradition.<br />Britt's parents Rich and Sarah were married there in 1974
               and her sister Blair was married there in 2003.<br />
               In the early hungover hours following Britt's 30th birthday, Sean had his first introduction to the Swedenborgian to attend
