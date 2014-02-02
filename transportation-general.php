@@ -37,8 +37,30 @@
 
           <section id="main">
             <div class="page-content">
-              <h2>Things to do</h2>
-              <p>coming soon!!</p>
+              <h2>General Info</h2>
+              <h3>To/From SFO</h3>
+
+              <div class="clearfix"><div class="term"><h3>BART</h3></div>
+              <div class="def"><p>Tickets are about $8.65 for one way airport transit and can be purchased with cash or credit card on site. You can load double that fare and keep your ticket for your return trip. Departures occur approx every 20 minutes. </p>
+              <p>The BART station at SFO is located in the International Terminal. It's a short walk from United Airlines in Terminal 3 and a slightly longer walk from Terminal 1. You can also take the free AirTrain from both terminals directly to the BART station. Just follow the signs to AirTrain and board the Red Line train. When you arrive, take the escalator down to the departures level and walk straight ahead to the BART station. Terminals 1, 2 &amp; 3 are approximately a one to three-minute AirTrain ride to the BART station. <a href="http://www.bart.gov/guide/airport/inbound_sfo#tickets" target="_blank">more info</a>.</p></div></div>
+
+              <div class="clearfix"><div class="term"><h3>Taxi</h3></div>
+              <div class="def"><p>Approx $50 to downtown SF, fare dependent on distance and traffic. During rush hour, may take longer than BART, however will drop you off exactly where you want to go. </p></div></div>
+
+              <div class="clearfix"><div class="term"><h3>Super Shuttle</h3></div>
+              <div class="def"><p>Shared shuttle service. Can be taken impromptu upon arrival at SFO or booked in advance for transport to SFO. Rates start at $20. Transit time can be over 1 hour due to multiple stops. <a href="http://www.supershuttle.com/Locations/SFOAirportShuttleSanFrancisco.aspx" target="_blank">more info</a>.</p></div></div>
+
+              <h3>Within San Francisco</h3>
+              <div class="clearfix"><div class="term"><h3>MUNI</h3></div>
+              <div class="def"><p>Despite local's love/hate relationship with MUNI, it is very convenient and dependable. Fare is $2 &ndash; paid in cash to the driver. Drivers will not make change!!! Make sure you have the exact amount or forfeit a larger bill. Hold on to your voucher &ndash; it is good for any transfers or returns within 90 minutes of issuance. If you plan on using your smartphone, download a free muni app that will show you different lines, connections, and real-time departures and arrivals. If you plan on heavy muni-travel and sight-seeing, consider a pass: <a href="https://www.sfmta.com/getting-around/transit/fares-passes/visitor-day-passes" target="_blank">more info</a></p></div></div>
+
+              <div class="clearfix"><div class="term"><h3>BART</h3></div>
+              <div class="def"><p>Used mostly for transportation in and out of SF (airport, East Bay, etc) BART is super easy and convenient to use. If traveling within SF city limits between two BART points, this is the fastest method of travel. (ie traveling between the Mission and downtown.) Fares vary between $1 and $4, depending on distance. If you're planning on making several trips, load up your BART card (non-refundable) for quicker transit. <a href="http://www.bart.gov/" target="_blank">more info</a>.</p></div></div>
+
+              <div class="clearfix"><div class="term"><h3>Taxis, Uber, and Lyft, oh my!!</h3></div>
+              <div class="def"><p>Taxis (<a href="http://yellowcabsf.com/index.php/9-uncategorised/89-book" target="_blank">Yellow Cab</a>, <a href="http://www.luxorcab.com/" target="_blank">Luxor</a>, <a href="http://www.desotosf.com/" target="_blank">DeSoto</a>) are fairly easy to catch and most take credit cards. You can also call for pick-ups, although wait times vary.</p>
+
+              <p><a href="https://www.uber.com/cities/san-francisco" target="_blank">Uber</a> and <a href="http://www.lyft.me/" target="_blank">Lyft</a> are the new SF transit darlings. Albeit a steeper learning curve than taxis, those with smartphones and tech prowess will find the Uber and Lyft apps user-friendly and very convenient.</p></p></div></div>
 
             </div>
           </section>
