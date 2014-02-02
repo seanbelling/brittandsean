@@ -129,11 +129,6 @@
               Britt used to run the Presidio trails wondering if Sean would ever see the Presidio's beauty alongside her.
               And indeed he did. Together they will celebrate not only the beauty of their surroundings, but their own love and that of family
               and friends on their celebratory day.</p>
-
-              <h3>Transportation</h3>
-              <p>
-
-
             </div>
           </section>
         </div>

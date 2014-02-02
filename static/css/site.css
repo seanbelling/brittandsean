@@ -50,7 +50,7 @@ header h1:hover {
 }
 header ul {
   margin: 0 auto;
-  width: 650px;
+  width: 700px;
   float: right;
   margin-top: 12px;
   position: relative;
@@ -58,7 +58,7 @@ header ul {
 header ul li {
   list-style: none;
   display: inline;
-  margin: 0 10px;
+  margin: 0 8px;
   padding: 5px;
 }
 header ul li:hover {
@@ -171,6 +171,9 @@ section#main .louise-title {
   margin-bottom: 1em;
 }
 
+b {
+  font-weight: 700;
+}
 
 dt {
   font-style: italic;
