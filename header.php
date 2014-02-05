@@ -8,7 +8,6 @@
           <a href="#">for travelers</a>
           <ul class="travelers">
             <li><a href="/accommodation">accommodation</a></li>
-            <li><a href="/things-to-do">things to do</a></li>
           </ul>
         </li>
         <li>
