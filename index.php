@@ -106,7 +106,7 @@
           <section id="main" style="padding-bottom:0;">
             <div class="main-img">
             <?php
-                $rand = rand(0,2);
+                $rand = rand(0,1);
                 if ($rand == 1) {
             ?>
             <h2 class="louise-title">coming soon to a wedding near you</h2>

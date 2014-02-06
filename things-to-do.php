@@ -39,30 +39,35 @@
             'coffee': [
               {
                 'name': 'Trouble Coffee Co',
+                'address': '',
                 'description': 'BEST coffee outside Australia! Get the cinnamon toast mmmmm.',
                 "lat" : 37.7602986,
                 "lng" : -122.5053705
               },
               {
                 'name': 'Sightglass Coffee',
+                'address': '',
                 'description': 'Excellent coffee and roasted on site. Huge open space',
                 "lat" : 37.7770883,
                 "lng" : -122.4084674
               },
               {
                 'name': 'Réveille Coffee Co.',
+                'address': '',
                 'description': 'Cool little North Beach cafe with decent coffee. Castro location opening soon',
                 "lat" : 37.7971341,
                 "lng" : -122.4058092
               },
               {
                 'name': 'Blue Bottle Coffee',
+                'address': '',
                 'description': 'Good coffee, lines can be really long on weekends and nice days',
                 "lat" : 37.794746,
                "lng" : -122.3932846
               },
               {
                 'name': 'Ritual Coffee Roasters',
+                'address': '',
                 'description': '',
                 "lat" : 37.7564371,
                 "lng" : -122.4213655
@@ -71,6 +76,7 @@
             'food': [
               {
                 'name': 'Little Star Pizza- Divisadero',
+                'address': '846 Divisadero St, San Francisco, CA',
                 'description': 'You haven\'t lived until you\'ve had deep dish pizza. Period. Second location in the  Mission- Valencia and 15th.',
                 "lat" : 37.7775135,
                 "lng" : -122.4381721
@@ -78,97 +84,111 @@
 
               {
                 'name': 'Bi-Rite Creamery',
+                'address': '3692 18th St, San Francisco, CA',
                 'description': 'The long line is worth the wait! Get the salted caramel flavor. (And at least two others!) Then walk across the street and eat it at Dolores Park.',
                 "lat" : 37.7614556,
-              	"lng" : -122.4259224,
+                "lng" : -122.4259224,
               },
 
               {
                 'name': 'Tartine Bakery & Cafe',
+                'address': '600 Guerrero St, San Francisco, California',
                 'description': 'Amazing baked goods and bread. Famous morning buns.',
                 "lat" : 37.7614184,
-              	"lng" : -122.4241038
+                "lng" : -122.4241038
               },
 
               {
                 'name': 'Ike\'s Place',
+                'address': '3489 16th St, San Francisco, CA',
                 'description': 'HUGE and delicious sandwiches. Every flavor combo you could want!',
                 "lat" : 37.7642952,
-              	"lng" : -122.430619
+                "lng" : -122.430619
               },
 
               {
                 'name': 'Burma Superstar',
+                'address': '309 Clement St, San Francisco, CA',
                 'description': 'Burmese dishes, some with Thai influences. Delicious! Long waits- explore Clement Street or go 2 blocks over for their sister restaurant B Star.',
                 "lat" : 37.7829318,
-              	"lng" : -122.4625782
+                "lng" : -122.4625782
               },
 
               {
                 'name': 'The Ice Cream Bar',
+                'address': '815 Cole St, San Francisco, CA',
                 'description': 'Awesome and super retro. Skip the ice cream and order something at the soda fountain in the back. Boozy milkshakes!!',
                 "lat" : 37.766484,
-              	"lng" : -122.4501262
+                "lng" : -122.4501262
               },
 
               {
                 'name': 'Magnolia Gastropub and Brewery',
+                'address': '1398 Haight St, San Francisco, CA',
                 'description': 'Great microbrewery with fancy pub food',
                 "lat" : 37.7702325,
-              	"lng" : -122.4453001
+                "lng" : -122.4453001
               },
 
               {
                 'name': 'Bun Mee',
+                'address': '2015 Fillmore St, San Francisco, California',
                 'description': 'Great Bahn Mi\'s, fun and casual',
                  "lat" : 37.7880942,
-              	"lng" : -122.4336601
+                "lng" : -122.4336601
               },
 
               {
                 'name': 'Suppenküche',
+                'address': '525 Laguna St, San Francisco, CA',
                 'description': 'Traditional German food done SF style. (Fresh and delicious!) Big tables, litre beers. Prost!',
                 "lat" : 37.77626679999999,
-              	"lng" : -122.4264291
+                "lng" : -122.4264291
               },
 
               {
                 'name': 'Blue Barn Gourmet',
+                'address': '2105 Chestnut St, San Francisco, CA',
                 'description': 'Delicious and fancy salad and sandwich shop',
                 "lat" : 37.8005863,
-              	"lng" : -122.4380465
+                "lng" : -122.4380465
               },
 
               {
                 'name': 'SusieCakes Bakery',
+                'address': '2109 Chestnut St, San Francisco, CA',
                 'description': 'Favorite cake and cupcakes in the bay!',
                 "lat" : 37.8005728,
-              	"lng" : -122.438149
+                "lng" : -122.438149
               },
 
               {
                 'name': 'The Sentinel',
+                'address': '35 New Montgomery St, San Francisco, CA',
                 'description': 'Take away sandwiches. Best in the city! Only open weekdays.',
                 "lat" : 37.78822359999999,
-              	"lng" : -122.4015923
+                "lng" : -122.4015923
               },
 
               {
                 'name': 'Kokkari Estiatorio',
-                'description': 'Best Mediterranean food in the city. Share a few appetizers- they are the stars.',
+                'address': '200 Jackson St, San Francisco, CA',
+                'description': 'Best Mediterranean food in the city. Share a few appetizers- they are the stars. Kinda fancy though so dress nicely',
                 "lat" : 37.7971369,
-              	"lng" : -122.3996476
+                "lng" : -122.3996476
               },
 
               {
                 'name': 'Umami Burger',
+                'address': '2184 Union St, San Francisco, CA',
                 'description': 'Fancy delicious hamburgers. Truffle fries!',
                 "lat" : 37.7972834,
-              	"lng" : -122.435199
+                "lng" : -122.435199
               },
 
               {
                 'name': 'Outerlands',
+                'address': '4001 Judah St, San Francisco, CA',
                 'description': 'Adorable, tiny restaurant. Gorgeous brunch and lunches.',
                  "lat" : 37.7602646,
                  "lng" : -122.504987
@@ -176,46 +196,51 @@
 
               {
                 'name': 'Park Chalet Garden Restaurant',
+                'address': '1000 Great Hwy, San Francisco, CA',
                 'description': 'Great brewery and restaurant. Delicious after a long bike ride through the park.',
                 "lat" : 37.7694498,
-              	"lng" : -122.5102322
+                "lng" : -122.5102322
               },
 
               {
                 'name': 'Off the Grid Thursday Lunch',
+                'address': '1150 Market St, San Francisco, CA 94102',
                 'description': 'A collection of food trucks in one place. Thursdays 11-2pm only.',
                 "lat" : 37.78018770000001,
-              	"lng" : -122.4126104
+                "lng" : -122.4126104
               },
 
               {
                 'name': 'SoMa StrEat Food Park',
+                'address': '428 11th St, San Francisco, CA',
                 'description': 'Out of the way, but a great collection of food trucks and picnic spots.',
                 "lat" : 37.769777,
-              	"lng" : -122.411897
+                "lng" : -122.411897
               },
 
               {
                 'name': 'Rosamunde Sausage Grill',
+                'address': '545 Haight St, San Francisco, CA',
                 'description': 'Delicious and crazy sausage flavors. Eat it next door at Toronado bar aside a rare IPA.',
                 "lat" : 37.7718371,
-              	"lng" : -122.4311251
+                "lng" : -122.4311251
               },
 
               {
                 'name': 'In-N-Out Burger',
+                'address': '333 Jefferson St, San Francisco, CA',
                 'description': 'Yes it\'s fast food. And if you haven\'t tried it (double double with grilled onions and animal style fries), you haven\'t truly visited California.',
                 "lat" : 37.8079231,
-              	"lng" : -122.418332
+                "lng" : -122.418332
               },
 
               {
                 'name': 'Absinthe Brasserie & Bar',
-                'description': '',
+                'address': '398 Hayes St, San Francisco, CA',
+                'description': 'Amazing food and creative, delicious cocktails. A bit fancy but worth it. Separate bar area if you just want cocktails',
                 "lat" : 37.7770062,
-              	"lng" : -122.42289
+                "lng" : -122.42289
               }
-
             ]
           };
 
@@ -231,8 +256,8 @@
               }).click(function() {
             	$('#map_canvas').gmap('openInfoWindow',
               	{
-              	'content': '<b>' + value.name + '</b><br /><br />' + value.description,
-              	'maxWidth': 300
+              	'content': '<p><b>' + value.name + '</b></p><p>' + value.address + '</p>' + value.description,
+              	'maxWidth': 400
               	}, this);
               });
 
