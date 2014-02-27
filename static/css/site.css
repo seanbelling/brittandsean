@@ -233,9 +233,14 @@ span.message {
   display: inline;
   font-size: 110%;
   cursor: pointer;
-  margin: 0 5px;
-  background-color: #AFD8D5;
+  margin-right: 5px;
+}
+.thingsToDoOptions li:hover, .thingsToDoOptions li.active {
+  text-decoration: underline;
 }
 .thingsToDoOptions li:after {
-
+  content: " -";
+}
+.thingsToDoOptions li:first-child:after, .thingsToDoOptions li:last-child:after {
+  content: "";
 }

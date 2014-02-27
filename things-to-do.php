@@ -34,7 +34,6 @@
             'zoom': 12
           });
 
-
           var places = {
             'coffee': [
               {
@@ -333,8 +332,10 @@
           };
 
           var show = function(type) {
-            $('#places').empty();
+            $('li.button').removeClass('active');
+            $('#' + type).addClass('active');
             $('#map_canvas').gmap('clear', 'markers');
+            $('#places').empty();
             _.each(places[type], function(value, idx) {
               $('#map_canvas').gmap('addMarker',
               {
@@ -359,28 +360,18 @@
           };
 
           $(document).on('mouseover', '#places li', function() {
-
             var marker = $('#map_canvas').gmap('get', 'markers')['m_' + $(this).data('id')];
             $(marker).triggerEvent('click');
           });
 
-          var clearAll = function() {
-            $('#map_canvas').gmap('clear', 'markers');
-          };
 
-          $('#food').click(function() {
-            show('food');
+          $('li.button').click(function() {
+            show($(this).attr('id'));
           });
-          $('#coffee').click(function() {
-            show('coffee');
-          });
-          $('#bars').click(function() {
-            show('bars');
-          });
+
+          // show food by default
+          show('food');
         });
-
-
-
         </script>
 
     </head>
@@ -395,9 +386,10 @@
             <div class="page-content">
               <h2>Things to do</h2>
               <ul class="thingsToDoOptions">
-                <li id="food">show food</li>
-                <li id="coffee">show coffee</li>
-                <li id="bars">show bars</li>
+                <li>Show me:</li>
+                <li class="button" id="food">food</li>
+                <li class="button" id="coffee">coffee</li>
+                <li class="button" id="bars">bars</li>
               </ul>
               <div style="clear:both;"></div>
               <div id="map_canvas" style="float:right;width:680px;height:500px;"></div>
