@@ -39,35 +39,49 @@
             'coffee': [
               {
                 'name': 'Trouble Coffee Co',
-                'address': '',
+                'address': '4033 Judah St San Francisco, CA 94122',
                 'description': 'BEST coffee outside Australia! Get the cinnamon toast mmmmm.',
                 "lat" : 37.7602986,
                 "lng" : -122.5053705
               },
               {
                 'name': 'Sightglass Coffee',
-                'address': '',
+                'address': '270 7th St, San Francisco, CA',
                 'description': 'Excellent coffee and roasted on site. Huge open space',
                 "lat" : 37.7770883,
                 "lng" : -122.4084674
               },
               {
+                'name': 'Sightglass Coffee 20th St',
+                'address': '3014 20th Street, San Francisco, CA',
+                'description': 'Newly opened second Sightglass location',
+                "lat" : 37.7591352,
+                "lng" : -122.4111189
+              },
+              {
                 'name': 'Réveille Coffee Co.',
-                'address': '',
-                'description': 'Cool little North Beach cafe with decent coffee. Castro location opening soon',
+                'address': '200 Columbus Ave, San Francisco, CA',
+                'description': 'Cool little North Beach cafe with decent coffee.',
                 "lat" : 37.7971341,
                 "lng" : -122.4058092
               },
               {
+                'name': 'Réveille Coffee Co. Castro Location',
+                'address': '4076 18th St San Francisco, CA',
+                'description': 'Newly opened Castro location for Réveille coffee',
+                "lat" : 37.7609474,
+                "lng" : -122.4343366
+              },
+              {
                 'name': 'Blue Bottle Coffee',
-                'address': '',
+                'address': '1 Ferry Bldg, San Francisco, CA',
                 'description': 'Good coffee, lines can be really long on weekends and nice days',
                 "lat" : 37.794746,
                "lng" : -122.3932846
               },
               {
                 'name': 'Ritual Coffee Roasters',
-                'address': '',
+                'address': '1026 Valencia St, San Francisco, CA',
                 'description': '',
                 "lat" : 37.7564371,
                 "lng" : -122.4213655
@@ -241,6 +255,80 @@
                 "lat" : 37.7770062,
                 "lng" : -122.42289
               }
+            ],
+            'bars': [
+              {
+                'name': 'Toronado',
+                'address': '547 Haight St, San Francisco, CA',
+                'description': 'HUGE selection of local, regional, and international beers on tap. No food service so you can bring any food in. Try Rosamunde sausages next door. Pesto veggie pizza at Mystic is also awesome.',
+                "lat" : 37.7718517,
+                "lng" : -122.4312
+              },
+              {
+                'name': 'Zeitgeist',
+                'address': '199 Valencia Street, San Francisco, CA',
+                'description': 'An institution. Huge back patio with dozens of picnic tables. Bring your cool game and hipster face.',
+                "lat" : 37.770028,
+                "lng" : -122.422098
+              },
+              {
+                'name': 'Elixir',
+                'address': '3200 16th Street, San Francisco, CA',
+                'description': '2nd oldest bar in SF! Fun bartenders and crowd. Great location',
+                "lat" : 37.7648952,
+                "lng" : -122.4243233
+              },
+              {
+                'name': 'Rickhouse',
+                'address': '246 Kearny St, San Francisco, CA',
+                'description': 'Really fun and popular with convenient location. Known for their punch bowls.',
+                "lat" : 37.790498,
+                "lng" : -122.403595
+              },
+
+              {
+                'name': 'Lion Pub',
+                'address': '2062 Divisadero St, San Francisco, California',
+                'description': 'Deliciously fresh handmade cocktails. Known for their mojitos- blueberry anyone? Cool lounge.',
+                "lat" : 37.7882297,
+                "lng" : -122.4403775
+              },
+              {
+                'name': 'Church Key',
+                'address': '1402 Grant Ave, San Francisco, CA',
+                'description': 'Snobby service but great tap selection in low-key atmosphere. Hole-in-the-wall-in-a-good-way.',
+                "lat" : 37.799949,
+                "lng" : -122.4073408
+              },
+              {
+                'name': 'ENO Wine Bar',
+                'address': '320 Geary St, San Francisco, CA',
+                'description': 'As stated- a wine bar. (A very good winebar for that location.)',
+                "lat" : 37.7873269,
+                "lng" : -122.4088035
+              },
+              {
+                'name': 'Jasper\'s Corner Tap & Kitchen',
+                'address': '401 Taylor St, San Francisco, CA',
+                'description': 'Great cocktails and food, next to the out-of-towners shuttle stop!! Bloody Marys anyone?',
+                "lat" : 37.7861265,
+                 "lng" : -122.411476
+              },
+              {
+                'name': 'Kozy Kar',
+                'address': '1548 Polk Street, San Francisco, CA',
+                'description': 'The craziest bar you will ever go to. If you\'re in the area, DO IT. Lots of other quirky places within a few blocks.',
+                "lat" : 37.7914107,
+                "lng" : -122.4205519
+              },
+              {
+                'name': 'Mikkeller Bar',
+                'address': '34 Mason St, San Francisco, CA',
+                'description': 'Excellent selection of European and local beers served how they should be',
+                "lat" : 37.783976,
+                "lng" : -122.408981
+              }
+
             ]
           };
 
@@ -261,7 +349,10 @@
               	}, this);
               });
 
-              var $li = $('<li>').html(value.name).data('id', idx);
+              var $li = $('<li>').html(value.name).data('id', idx).css({
+                'cursor': 'pointer',
+                'margin-bottom': '5px'
+              });
               $('#places').append($li);
 
             });
@@ -277,13 +368,15 @@
             $('#map_canvas').gmap('clear', 'markers');
           };
 
-          $('button#food').click(function() {
+          $('#food').click(function() {
             show('food');
           });
-          $('button#coffee').click(function() {
+          $('#coffee').click(function() {
             show('coffee');
           });
-          $('button.clear').click(clearAll);
+          $('#bars').click(function() {
+            show('bars');
+          });
         });
 
 
@@ -301,9 +394,13 @@
           <section id="main">
             <div class="page-content">
               <h2>Things to do</h2>
-              <button id="food">show food</button> <button id="coffee">show coffee</button>
-
-              <div id="map_canvas" style="float:right;width:680px;height:500px;border:1px solid red;"></div>
+              <ul class="thingsToDoOptions">
+                <li id="food">show food</li>
+                <li id="coffee">show coffee</li>
+                <li id="bars">show bars</li>
+              </ul>
+              <div style="clear:both;"></div>
+              <div id="map_canvas" style="float:right;width:680px;height:500px;"></div>
               <ul id="places" style="width:180px;float:left;"></ul>
               <div style="clear:both;"></div>
             </div>

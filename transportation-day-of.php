@@ -44,10 +44,10 @@
                 <div class="clearfix"><div class="term"><h3>Taxi:</h3></div>
                 <div class="def"><p>Hires may be easy (call early!) for transportation to the Swedenborgian, however taxi service from the Log Cabin is nearly impossible &ndash; Taxis will not pick up passengers from the Presidio on Saturday nights. Ride-share services like <a href="https://www.uber.com/" target="_blank">Uber</a> and <a href="http://www.lyft.com/" target="_blank">Lyft</a> are highly recommended although their late-night availability from the Presidio is not guaranteed.</p></div></div>
 
-                <div class="clearfix"><div class="term"><h3>Public Transportation:</h3></div>
+                <div class="clearfix"><div class="term"><h3>Public:</h3></div>
                 <div class="def"><p>The Swedenborgian lies one block from the MUNI <a href="https://www.sfmta.com/getting-around/transit/routes-stops/3-jackson" target="_blank">3</a> and <a href="https://www.sfmta.com/getting-around/transit/routes-stops/43-masonic" target="_blank">43</a> lines, and three blocks from the MUNI <a href="https://www.sfmta.com/getting-around/transit/routes-stops/1-california" target="_blank">1</a>, <a href="https://www.sfmta.com/getting-around/transit/routes-stops/2-clement" target="_blank">2</a>, and <a href="https://www.sfmta.com/getting-around/transit/routes-stops/24-divisadero" target="_blank">24</a> lines. Public transportation is not available from the Log Cabin. </p></div></div>
 
-                <div class="clearfix"><div class="term"><h3>Provided Transportation:</h3></div>
+                <div class="clearfix"><div class="term"><h3>Provided:</h3></div>
                 <div class="def"><p>We are providing a shuttle for out-of-town guests that will depart from the Hilton Union Square &ndash; <a href="https://www.google.com/maps?q=333+O%27Farrell+St,+San+Francisco,+CA&hl=en&sll=37.785945,-122.411057&sspn=0.005791,0.011244&oq=333+o&hnear=333+O%27Farrell+St,+San+Francisco,+California+94118&t=m&z=16" target="_blank">333 O'Farrell Street</a> &ndash; at promptly 3pm to arrive at the Swedenborgian for a 4pm ceremony. After the ceremony, all guests will be transported to the Log Cabin for the reception. Shuttles will be available starting at 10pm to shuttle guests from the Log Cabin back to the Hilton Union Square, where taxis and public transportation are plentiful. </p></div></div>
 
                 <div class="clearfix"><div class="term"><h3>Our Suggestion:</h3></div>
