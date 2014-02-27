@@ -105,7 +105,7 @@
 
           <section id="main">
             <div class="page-content">
-              <h2>Guestbook</h2>
+              <h2>Show us some love!</h2>
               <p>Needs javascript, sorry</p>
             </div>
           </section>

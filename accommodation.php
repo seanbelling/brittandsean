@@ -109,6 +109,7 @@
 
               <p>San Francisco is hip, delicious, and a whole lotta fun. Of course this is no secret and the city buzzes with locals and tourists alike. August 30 falls on Labor Day weekend which means two things: locals tend to flee the city while tourists tend to invade. While the overall population may remain the same, you can bet that motels, hotels, and vacation rentals will go quickly.</p>
               <p>Our suggestion: Experience SF like a local and rent a flat on Airbnb.com with a few friends. SF is really just a collection of very distinct neighborhoods, each with its own flavor and culture.</p>
+              <p>Another option for vacation rentals is <a href="http://www.vrbo.com" target="_blank">www.vrbo.com</a></p>
 
               <p>To see what works for you...</p>
 

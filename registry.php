@@ -38,10 +38,10 @@
           <section id="main">
             <div class="page-content">
               <h2>Registry</h2>
-              <p>Your presence at our wedding, along with your good wishes,
+              <p>We realise that for many of you the cost of flights and accommodation for the wedding, not to mention using up your vacation leave is a huge ask and honestly, your presence at our wedding, along with your good wishes,
                 blessings and thoughts are (quite seriously) the most memorable
                 and thoughtful gift you could give us.</p>
-              <p>However we realize that some of you will still want to give a gift
+              <p>However, if you will still wish to give a gift
                 to help us build our home and begin our journey together.</p>
               <p>We have created a few registries that work for us &ndash; both tangible items that we will be thrilled to have, and honeymoon experiences that will be sure to create lasting memories.</p>
 
@@ -56,7 +56,7 @@
                   <a href="http://www.heathceramics.com/giftregistry/view/index/id/d50a5c0ed94a9d673b8ce03a16e585b3/" target="_blank">
                     <img src="/static/img/heath-logo.png" alt="plates, oooooh" />
                   </a>
-                  <p><br /><br />Heath Ceramics is a local company that has produced hand spun ceramics for over 60 years. Their dinnerware is stunning and will surely outshine the meals that we prepare and place on it. We (mostly Britt) are ok with that.</p>
+                  <p><br /><br />Heath Ceramics is a local company that has produced hand spun ceramics for over 60 years. Their dinnerware is stunning and will surely outshine the meals that we prepare and place on it. We (mainly Britt) are ok with that.</p>
                 </li>
 
                 <li style="float:left;width:250px;">

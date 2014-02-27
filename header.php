@@ -3,18 +3,19 @@
 		return <<<EOT
   		<ul>
         <li><a href="/">home</a></li>
-        <li><a href="/wedding">the big day</a></li>
         <li>
-          <a href="#">for travelers</a>
-          <ul class="travelers">
-            <li><a href="/accommodation">accommodation</a></li>
+          <a href="#">the big day</a>
+          <ul class="big-day">
+            <li><a href="/wedding">events</a></li>
+            <li><a href="/transportation-day-of">transportation</a></li>
+            <li><a href="/tech">tech</a></li>
           </ul>
         </li>
         <li>
-          <a href="#">transportation</a>
-          <ul class="transportation">
-            <li><a href="/transportation-general">general info</a></li>
-            <li><a href="/transportation-day-of">day of</a></li>
+          <a href="#">travelers</a>
+          <ul class="travelers">
+            <li><a href="/accommodation">accommodation</a></li>
+            <li><a href="/transportation-general">getting around</a></li>
           </ul>
         </li>
         <li><a href="/registry">registry</a></li>

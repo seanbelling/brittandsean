@@ -123,6 +123,9 @@
               Britt used to run the Presidio trails wondering if Sean would ever see the Presidio's beauty alongside her.
               And indeed he did. Together they will celebrate not only the beauty of their surroundings, but their own love and that of family
               and friends on their celebratory day.</p>
+              <p style="margin:0 auto;text-align:center;font-size:110%;width:80%;">
+                We have worked really hard to create an intimate celebration featuring all of our most important people. While we love little ones, we are unable to include children in our festivities. The ceremony and reception are for adults only. If you have a question about this please call or email. Thanks for understanding.
+              </p>
             </div>
           </section>
         </div>

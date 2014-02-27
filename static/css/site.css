@@ -81,11 +81,12 @@ header ul li ul {
   width: 140px;
   background-color: #000;
 }
+
+header ul li ul.big-day {
+  left: 77px;
+}
 header ul li ul.travelers {
   left: 187px;
-}
-header ul li ul.transportation {
-  left: 309px;
 }
 
 header ul li:hover ul {
@@ -208,6 +209,7 @@ div.def {
 }
 #form-entries {
   float: left;
+  width: 550px;
 }
 
 form input[type="text"], textarea {
