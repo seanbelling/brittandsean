@@ -82,7 +82,7 @@ TEMPLATES = {
   '),
 
   guestbook: _.template('\
-    <h2>Guestbook</h2>\
+    <h2>Show us some love!</h2>\
     <div class="clearfix">\
       <div id="form-target"></div>\
       <div id="form-entries">\
