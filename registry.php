@@ -52,7 +52,7 @@
                   <p><br /><br />Living together for awhile, you'd think we have everything we need. Not so. We (mainly Sean) love spending time in the kitchen and are in need of both basic and not-so basic kitchen tools.</p>
                 </li>
                 <li style="float:left;width:250px;margin:0 30px;">
-                  <a href="http://www.heathceramics.com/giftregistry/view/index/id/d50a5c0ed94a9d673b8ce03a16e585b3/" target="_blank">
+                  <a href="http://www.heathceramics.com/giftregistry/view/index/id/19c2a6800372695cc1130a3c557e0725/" target="_blank">
                     <img src="/static/img/heath-logo.png" alt="plates, oooooh" />
                   </a>
                   <p><br /><br />Heath Ceramics is a local company that has produced hand spun ceramics for over 60 years. Their dinnerware is stunning and will surely outshine the meals that we prepare and place on it. We (mainly Britt) are ok with that.</p>
