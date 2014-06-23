@@ -63,11 +63,16 @@
                     <img alt="My Wanderable Honeymoon Registry" src="http://www.wanderable.com/images/ads/wanderable_hm.png">
                   </a>
                   <p><br /><br />We are heading to a couple pretty crazy places for our honeymoon. If you'd rather gift us with an amazing experience, we have created a honeymoon registry full of exciting options.</p>
-
                 </li>
-
               </ul>
 
+              <p style="margin:0 auto;width:700px;">
+                * While the Heath registry appears to love Australians, the Williams-Sonoma website can't seem to handle international billing addresses.
+                If you'd like to place an international order with Heath Ceramics, it should be easy and straight forward.
+                To place an order with Williams-Sonoma using a non-US billing address, you may place an order over the phone (+800 1500 5555)
+                or use our US home address (please ask us or Nanette Belling for this) for your billing information (may trigger your credit card fraud alerts.)<br /><br />
+                Thank you!! We appreciate your effort and generosity!!
+              </p>
             </div>
           </section>
         </div>
