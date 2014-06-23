@@ -44,7 +44,7 @@
               <p>However, if you will still wish to give a gift
                 to help us build our home and begin our journey together we have created a few registries that work for us &ndash; both tangible items that we will be thrilled to have, and honeymoon experiences that will be sure to create lasting memories.</p>
 
-              <ul style="width:810px;margin:60px auto;display:block;" class="clearfix">
+              <ul style="width:810px;margin:60px auto 10px;display:block;" class="clearfix">
                 <li style="float:left;width:250px;">
                   <a href="http://www.williams-sonoma.com/registry/67fkgjwwfx/registry-list.html" target="_blank">
                     <img src="/static/img/williams-sonoma-logo.png" alt="cookware, oh my!" />
